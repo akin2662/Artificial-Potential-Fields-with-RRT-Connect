@@ -1,4 +1,3 @@
-# APF-RRTConnect
 # Implementation of the Improved RRT-Connect algorithm integrating Artificial Potential Field technique along with Path Optimization through B-spline and Dijkstra.
 
 
