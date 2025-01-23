@@ -1,12 +1,5 @@
 # Implementation of the Improved RRT-Connect algorithm integrating Artificial Potential Field technique along with Path Optimization through B-spline and Dijkstra.
-
-
-## ENPM661 - Planning For Autonomous Robots -PROJECT 5
-
-Student1: Raajith Gadam | 119461167 | raajithg@umd.edu
-
-Student2: Advait Kinikara | 120097997 | kinikara@umd.edu
-
+**Note:** This project was a requirement for the course ENPM 661- Planning for Autonomous Robots at University of Maryland, College Park and was done in collaboration with Raajith Gadam (raajithg@umd.edu)
 
 
 ## Project Description:
