@@ -17,7 +17,7 @@ This script contains an implementation of the Rapidly-exploring Random Trees con
 * python 3.11 (any version above 3 should work)
 * Python running IDE (We used Pycharm)
 
-##Libraries used:
+## Libraries used:
 * NumPy
 * Time
 * Shapely
