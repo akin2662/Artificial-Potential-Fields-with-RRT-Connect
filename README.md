@@ -25,7 +25,7 @@ This script contains an implementation of the Rapidly-exploring Random Trees con
 * Scipy
 
 
-### **Instructions**
+## Instructions:
 1. Download the zip file and extract it
 	
 2. Install python and the required dependencies: 
