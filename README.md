@@ -1,5 +1,5 @@
 # Implementation of the Improved RRT-Connect algorithm integrating Artificial Potential Field technique along with Path Optimization through B-spline and Dijkstra.
-**Note:** This project was a requirement for the course ENPM 661- Planning for Autonomous Robots at University of Maryland, College Park and was done in collaboration with Raajith Gadam (raajithg@umd.edu)
+**Note:** This project was a requirement for the course ENPM 661- Planning for Autonomous Robots at University of Maryland, College Park and was done in collaboration with Raajith Gadam (raajithg@umd.edu). It is inspired from Y. Zhu, Y. Tang, Y. Zhang and Y. Huang, ”Path Planning of Manipulator Based on Improved RRT-Connect Algorithm,” 2021 2nd International Conference on Big Data & Artificial Intelligence & Software Engineering (ICBASE), Zhuhai, China, 2021, pp. 44-47, doi:10.1109/ICBASE53849.2021.00016.
 
 
 ## Project Description:
