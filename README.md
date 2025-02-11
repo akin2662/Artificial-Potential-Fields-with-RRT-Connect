@@ -40,12 +40,13 @@ This script contains an implementation of the Rapidly-exploring Random Trees con
 5. The optimal path will be displayed on the screen and the number of samples taken along with the runtime will be printed in the terminal.
 
 ### Mock Output:
-Enter the attractive force constant (C): 10
-Enter the repulsive force constant (K): 5
-Enter the obstacle radius of influence (R): 2
+Enter the attractive force constant (C): 300
+Enter the repulsive force constant (K): 50
+Enter the obstacle radius of influence (R): 10
 Enter the starting point (x, y): 2,2
 Enter the goal point (x, y): 48,24
 Time:7.199061870574951 	 Path length:73.73739875422808
+![rrtconnect_apf](https://github.com/user-attachments/assets/6246cdef-0534-4c85-a6f4-dada1913f1dd)
 
 ### **Note**
 Since the algorithm for the improved RRTConnect path is fast, it may happen that the you may not be able to see the visualization i.e tree exploration. But, the code is written in such a way that the tree exploration can be seen (similar code as one implemented for RRT Connect). 
