@@ -50,3 +50,17 @@ Time:7.199061870574951 	 Path length:73.73739875422808
 
 ### **Note**
 Since the algorithm for the improved RRTConnect path is fast, it may happen that the you may not be able to see the visualization i.e tree exploration. But, the code is written in such a way that the tree exploration can be seen (similar code as one implemented for RRT Connect). 
+
+### **Bug Fixes***
+  - Bug 1: dijkstra() now correctly reconstructs the shortest path by tracking
+           a 'previous' dict and backtracking from goal. Original returned
+           distances.keys() — the set of visited nodes in insertion order,
+           which is NOT a path.
+  - Bug 2: APF steer() force normalization now checks magnitude explicitly
+           before dividing, preventing division-by-zero and removing the
+           epsilon broadcast hack that biased directions arbitrarily.
+  - Bug 3: Hardcoded workspace bounds [0,50]×[0,30] in steer() extracted
+           into instance attributes so they stay consistent with the environment.
+  - Bug 4: end_time recorded immediately after plan_with_animation() returns,
+           not after matplotlib blocks — so timing reflects planning only.
+  - Bug 5: No-path case now prints a clear message instead of silently exiting
