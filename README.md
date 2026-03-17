@@ -53,6 +53,7 @@ Since the algorithm for the improved RRTConnect path is fast, it may happen that
 
 ### **Updates***
 ***Version 1.0***: Planner for 2D point robot. Initial script
+
 ***Version 1.1***: Bug Fixes in Version 1.0
   - Bug 1: dijkstra() now correctly reconstructs the shortest path by tracking
            a 'previous' dict and backtracking from goal. Original returned
