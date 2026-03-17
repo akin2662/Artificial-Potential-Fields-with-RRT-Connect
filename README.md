@@ -51,7 +51,9 @@ Time:7.199061870574951 	 Path length:73.73739875422808
 ### **Note**
 Since the algorithm for the improved RRTConnect path is fast, it may happen that the you may not be able to see the visualization i.e tree exploration. But, the code is written in such a way that the tree exploration can be seen (similar code as one implemented for RRT Connect). 
 
-### **Bug Fixes***
+### **Updates***
+***Version 1.0***: Planner for 2D point robot. Initial script
+***Version 1.1***: Bug Fixes in Version 1.0
   - Bug 1: dijkstra() now correctly reconstructs the shortest path by tracking
            a 'previous' dict and backtracking from goal. Original returned
            distances.keys() — the set of visited nodes in insertion order,
