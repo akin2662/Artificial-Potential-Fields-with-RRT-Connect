@@ -1,8 +1,7 @@
 # Improved RRT-Connect with APF — 2D Planner and Nav2 Global Planner Plugin
 
-> Inspired by Y. Zhu, Y. Tang, Y. Zhang and Y. Huang, "Path Planning of Manipulator Based on Improved RRT-Connect Algorithm," ICBASE 2021, pp. 44-47, doi:10.1109/ICBASE53849.2021.00016.
+Inspired by Y. Zhu, Y. Tang, Y. Zhang and Y. Huang, "Path Planning of Manipulator Based on Improved RRT-Connect Algorithm," ICBASE 2021, pp. 44-47, doi:10.1109/ICBASE53849.2021.00016.
 
----
 
 ## What is this?
 
@@ -10,7 +9,6 @@ This started as a course project implementing RRT-Connect with Artificial Potent
 
 The repository has two parts. The first is a standalone Python planner you can run directly to visualize paths in 2D. The second is a Nav2 plugin that plugs the same algorithm into ROS2's navigation stack so a real (or simulated) robot can use it.
 
----
 
 ## Nav2 Plugin Demo
 
@@ -103,7 +101,6 @@ These are set in `params/nav2_params.yaml` under `apf_rrtc_planner_node`:
 
 ### Repository structure
 
-```
 apf_rrtc_plugin/
 ├── apf_rrtc_plugin/
 │   ├── rrt_connect_core.py       # planning algorithm, no ROS2
@@ -125,7 +122,6 @@ apf_rrtc_plugin/
 └── package.xml
 ```
 
----
 
 ## Standalone 2D Planner
 
@@ -184,7 +180,6 @@ Bug 5: When planning failed (iteration limit reached), the code returned `None` 
 
 **Version 1.0** — Initial course project implementation
 
----
 
 ## Citation
 
