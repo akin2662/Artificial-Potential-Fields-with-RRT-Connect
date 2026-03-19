@@ -1,0 +1,8 @@
+# Request — sent by C++ plugin to Python planner
+geometry_msgs/PoseStamped start
+geometry_msgs/PoseStamped goal
+---
+# Response — sent back from Python planner to C++ plugin
+nav_msgs/Path path
+bool success
+string message

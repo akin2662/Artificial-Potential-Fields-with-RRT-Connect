@@ -1,0 +1,21 @@
+<!--
+  plugin.xml
+  ----------
+  Registers the C++ plugin with pluginlib.
+
+  library path: the shared library name WITHOUT lib prefix or .so suffix.
+  CMakeLists.txt builds it as libapf_rrtc_plugin_plugin.so,
+  so the path here is "apf_rrtc_plugin_plugin".
+
+  type: fully qualified C++ class name (namespace::class)
+  base_class_type: the Nav2 interface being implemented
+-->
+<library path="apf_rrtc_plugin_plugin">
+  <class type="apf_rrtc_plugin::ApfRrtcPlugin"
+         base_class_type="nav2_core::GlobalPlanner">
+    <description>
+      RRT-Connect with Artificial Potential Field global planner.
+      C++ wrapper delegates planning to a Python ROS2 service node.
+    </description>
+  </class>
+</library>

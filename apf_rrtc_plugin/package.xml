@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>apf_rrtc_plugin</name>
+  <version>0.1.0</version>
+  <description>
+    RRT-Connect with APF global planner plugin for Nav2.
+    C++ Nav2 plugin wrapper + Python RRTConnectCore planner service.
+  </description>
+  <maintainer email="kinikaradvait26@gmail.com">Advait Kinikar</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- Build system — ament_cmake handles both C++ and Python -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_python</buildtool_depend>
+
+  <!-- Service generation -->
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <!-- C++ dependencies -->
+  <depend>rclcpp</depend>
+  <depend>rclcpp_lifecycle</depend>
+  <depend>nav2_core</depend>
+  <depend>nav2_costmap_2d</depend>
+  <depend>nav2_util</depend>
+  <depend>nav_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>pluginlib</depend>
+  <depend>tf2_ros</depend>
+
+  <!-- Python dependencies -->
+  <depend>rclpy</depend>
+
+  <!-- Service runtime -->
+  <member_of_group>rosidl_interface_packages</member_of_group>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+    <!-- pluginlib reads this to find ApfRrtcPlugin -->
+    <nav2_core plugin="${prefix}/plugin.xml"/>
+  </export>
+</package>
