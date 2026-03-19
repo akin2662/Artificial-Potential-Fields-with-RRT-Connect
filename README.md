@@ -100,7 +100,7 @@ These are set in `params/nav2_params.yaml` under `apf_rrtc_planner_node`:
 | `connect_tolerance` | 0.05 | How close trees need to be to connect |
 
 ### Repository structure
-
+```
 apf_rrtc_plugin/
 ├── apf_rrtc_plugin/
 │   ├── rrt_connect_core.py       # planning algorithm, no ROS2
