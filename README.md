@@ -12,7 +12,7 @@ The repository has two parts. The first is a standalone Python planner you can r
 
 ## Nav2 Plugin Demo
 
-![Demo](demo.gif)
+[Plugin Demo](https://drive.google.com/file/d/1_0Tn8NCuhYe3tkSEEy9UtCTKNoestbSg/view?usp=sharing)
 
 The robot plans a path using RRT-Connect with APF, follows it, and automatically replans if an obstacle appears in the way.
 
